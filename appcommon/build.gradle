@@ -1,0 +1,9 @@
+apply plugin: 'com.android.library'
+apply from: "../model_common.gradle"
+
+android {
+
+}
+dependencies {
+    api project(':common')
+}

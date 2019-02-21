@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">common</string>
+
+    <string name="please_press_back_again_to_exit">再按一次退出</string>
+
+
+    <!--权限-->
+    <string name="permission_tip">提示</string>
+    <string name="permission_need">我们需要</string>
+    <string name="permission_come_useapp">权限来正常使用APP</string>
+    <string name="permission_allow">授予</string>
+    <string name="permission_refuse">拒绝</string>
+    <string name="permission_some">一些</string>
+    <string name="permission_allow_fail">获取授权失败</string>
+    <string name="permission_apply_fail">权限申请失败</string>
+    <string name="permission_message">权限被您拒绝或者系统发生错误申请失败，请您到设置页面手动授权，否则功能无法正常使用！</string>
+    <string name="permission_setting">设置</string>
+    <string name="permission_cancel">取消</string>
+
+</resources>

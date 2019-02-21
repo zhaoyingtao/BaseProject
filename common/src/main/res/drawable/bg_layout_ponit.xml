@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!--线条颜色-->
+    <!--<stroke-->
+    <!--android:width="@dimen/margin_01"-->
+    <!--android:color="@color/white" />-->
+
+    <!--内部颜色 -->
+    <solid android:color="#80000000" />
+    <!-- 圆角的幅度 -->
+    <corners android:radius="@dimen/margin_010" />
+
+    <padding
+        android:bottom="@dimen/margin_02"
+        android:left="@dimen/margin_06"
+        android:right="@dimen/margin_06"
+        android:top="@dimen/margin_02" />
+
+</shape>

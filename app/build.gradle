@@ -1,0 +1,23 @@
+apply plugin: 'com.android.application'
+apply from: "../model_common.gradle"
+
+android {
+    defaultConfig {
+        versionCode rootProject.ext.versionCode
+        versionName rootProject.ext.versionName
+    }
+}
+dependencies {
+    //解决依赖库冲突问题
+    configurations.all {
+        resolutionStrategy.eachDependency { DependencyResolveDetails details ->
+            def requested = details.requested
+            if (requested.group == 'com.android.support') {
+                if (!requested.name.startsWith("multidex")) {
+                    details.useVersion rootProject.ext.supportLibraryVersion
+                }
+            }
+        }
+    }
+    implementation project(':appcommon')
+}

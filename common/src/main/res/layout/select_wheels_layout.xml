@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E9E9E9"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:padding="@dimen/margin_010">
+
+        <TextView
+            android:id="@+id/cancel"
+            android:layout_width="@dimen/margin_056"
+            android:layout_height="@dimen/margin_024"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="取消"
+            android:textColor="#FD674F"
+            android:textSize="@dimen/text_size_16" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="#333333"
+            android:textSize="@dimen/text_size_16" />
+
+        <TextView
+            android:id="@+id/ok"
+            android:layout_width="@dimen/margin_056"
+            android:layout_height="@dimen/margin_024"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="确定"
+            android:textColor="#FD674F"
+            android:textSize="@dimen/text_size_16" />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_half_dp"
+        android:background="#E5E5E5"/>
+
+
+    <com.bigkoo.pickerview.lib.WheelView
+        android:id="@+id/wheelView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"/>
+
+
+</LinearLayout>

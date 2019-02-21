@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparency_125">#20000000</color>
+    <color name="transparency_250">#40000000</color>
+    <color name="transparency_500">#80000000</color>
+
+
+    <!--ttsing颜色-->
+    <color name="common_bg_default">#F6F6F6</color>
+
+    <color name="tt_white">#FFFFFF</color>
+    <color name="tt_black">#000000</color>
+    <color name="tt_gray">#C0C0C0</color>
+    <color name="tt_gray_01">#E0E0E0</color>
+    <color name="tt_red">#FD674F</color>
+    <color name="tt_pink">#FFF2F0</color>
+    <color name="tt_blue">#309CFA</color>
+    <color name="tt_blue_01">#5B9DE3</color>
+    <color name="tt_green">#71D290</color>
+    <color name="tt_light_blue">#D5EAFC</color>
+    <color name="tt_33333">#333333</color>
+    <color name="tt_999999">#999999</color>
+    <color name="tt_666666">#666666</color>
+    <color name="tt_d4d4d4">#D4D4D4</color>
+    <color name="tt_parting_line">#EEEEEE</color>
+    <color name="tt_ffa500">#ffa500</color>
+    <color name="tt_yellow">#FF733E</color>
+    <color name="tt_fc8457">#FC8457</color>
+    <color name="tt_ff6358">#FF6358</color>
+    <color name="tt_C8C8C8">#C8C8C8</color>
+    <color name="tt_EEEEEE">#EEEEEE</color>
+    <color name="tt_fff7e6">#FFF7E6</color>
+    <color name="tt_f2f2f2">#F2F2F2</color>
+    <color name="tt_996B4B">#996B4B</color>
+    <color name="tt_7CCC22">#7CCC22</color>
+    <color name="tt_804F2D">#804F2D</color>
+    <color name="tt_CC7700">#CC7700</color>
+    <color name="tt_FFF5DD">#FFF5DD</color>
+    <color name="tt_42C1A7">#42C1A7</color>
+    <color name="tt_D8D8D8">#D8D8D8</color>
+    <color name="tt_F3F3F3">#F3F3F3</color>
+    <color name="tt_FAFAFA">#FAFAFA</color>
+    <color name="tt_4F4D50">#4F4D50</color>
+    <color name="tt_24222D">#24222D</color>
+    <color name="tt_ee6b5c">#EE6B5C</color>
+    <color name="tt_D0D0D0">#D0D0D0</color>
+    <color name="tt_F3F4F5">#F3F4F5</color>
+    <color name="tt_EBEBEB">#EBEBEB</color>
+    <color name="tt_E5E5E5">#E5E5E5</color>
+    <color name="tt_F1F1F1">#F1F1F1</color>
+    <color name="tt_330000">#33000000</color>
+    <color name="tt_ccffff">#ccffffff</color>
+    <color name="tt_80ffffff">#80ffffff</color>
+    <color name="tt_808080">#808080</color>
+    <color name="tt_B7B7B7">#B7B7B7</color>
+    <color name="tt_F0F0F0">#F0F0F0</color>
+    <color name="tt_33ffffff">#33ffffff</color>
+    <color name="tt_F6F6F6">#F6F6F6</color>
+    <color name="tt_EC6267">#EC6267</color>
+    <color name="tt_A0A0A0">#A0A0A0</color>
+    <color name="tt_DFDFDF">#DFDFDF</color>
+    <color name="tt_B9B9B9">#B9B9B9</color>
+    <color name="tt_24252c">#24252c</color>
+    <color name="tt_E7E7E7">#E7E7E7</color>
+    <color name="tt_FFA500">#FFA500</color>
+    <color name="tt_444444">#444444</color>
+    <color name="tt_FF999999">#FF999999</color>
+    <color name="tt_C4C4C4">#C4C4C4</color>
+    <color name="tt_E3E3E3">#E3E3E3</color>
+    <color name="tt_F8F8F8">#F8F8F8</color>
+    <color name="tt_FBFBFB">#FBFBFB</color>
+    <color name="tt_62514F">#62514F</color>
+    <color name="tt_FFECD2">#FFECD2</color>
+    <color name="tt_F88742">#F88742</color>
+    <color name="tt_173864">#173864</color>
+    <color name="tt_47528A">#47528A</color>
+    <color name="tt_FFDD93">#FFDD93</color>
+    <color name="tt_81C87F">#81C87F</color>
+    <color name="tt_48A9CE">#48A9CE</color>
+    <color name="tt_CFE6D6">#CFE6D6</color>
+    <color name="tt_FFAEA1">#FFAEA1</color>
+    <color name="tt_FF996A">#FF996A</color>
+    <color name="tt_FF756B">#FF756B</color>
+    <color name="tt_fdeede">#fdeede</color>
+    <color name="tt_dfdfdf">#dfdfdf</color>
+    <color name="tt_f4f4f4">#f4f4f4</color>
+    <color name="tt_8EADCD">#8EADCD</color>
+    <color name="tt_313233">#313233</color>
+    <color name="tt_A7A59B">#A7A59B</color>
+    <color name="tt_333128">#333128</color>
+    <color name="tt_5A584C">#5A584C</color>
+
+    <color name="yellow_default">#FF733E</color>
+    <color name="yellow_press">#E5612E</color>
+    <color name="green_default">#70CC14</color>
+    <color name="green_press">#A0D768</color>
+    <color name="blue_press">#67B1E6</color>
+    <color name="blue_default">#67B1E6</color>
+
+    <!--透明度的颜色-->
+    <color name="black_degree_30">#4D000000</color>
+    <color name="black_degree_40">#66000000</color>
+    <color name="black_degree_44">#70000000</color>
+    <color name="yellow_degree_30">#4DFFAA33</color>
+    <color name="yellow_degree_60">#99FFAA33</color>
+    <color name="black_degree_5">#0D000000</color>
+    <color name="black_degree_3">#08000000</color>
+    <color name="black_degree_10">#1A000000</color>
+    <color name="black_degree_12">#1F000000</color>
+    <color name="black_degree_80">#CC000000</color>
+    <color name="white_degree_80">#CCffffff</color>
+    <color name="black_degree_50">#80000000</color>
+    <color name="black_degree_56">#8F000000</color>
+    <color name="black_degree_60">#99000000</color>
+    <color name="black_degree_100">#00000000</color>
+    <color name="black_333_degree_90">#E6333333</color>
+    <color name="white_degree_40">#66FFFFFF</color>
+    <color name="white_degree_60">#99FFFFFF</color>
+    <color name="white_degree_50">#80FFFFFF</color>
+    <color name="white_degree_30">#4DFFFFFF</color>
+    <color name="black_degree_70">#B3000000</color>
+    <color name="red_degree_80">#CCFD674F</color>
+
+    <!--注册-->
+    <color name="tt_C0C0C0">#C0C0C0</color>
+    <color name="tt_D4D4D4">#D4D4D4</color>
+    <color name="tt_EDEDED">#EDEDED</color>
+    <color name="tt_C1C1C1">#C1C1C1</color>
+    <color name="tt_FF3628">#FF3628</color>
+    <color name="tt_151515">#151515</color>
+    <color name="tt_BBBBBB">#BBBBBB</color>
+    <color name="tt_E4E4E4">#E4E4E4</color>
+    <color name="tt_E9E9E9">#E9E9E9</color>
+    <color name="tt_3A3A3A_degree_70">#B33A3A3A</color>
+    <color name="tt_FFA1A1">#FFA1A1</color>
+    <color name="tt_3F3F3F">#3F3F3F</color>
+    <color name="tt_559FE0F">#559FE0</color>
+    <color name="tt_FD674F">#FD674F</color>
+    <color name="tt_F2F2F2">#F2F2F2</color>
+    <color name="tt_242424">#242424</color>
+    <color name="tt_F5F3F2">#F5F3F2</color>
+    <color name="tt_121212">#121212</color>
+    <color name="tt_FFE7E3">#FFE7E3</color>
+    <color name="tt_D1D1D1">#D1D1D1</color>
+    <color name="tt_CCCCCC">#CCCCCC</color>
+    <color name="tt_F9F9F9">#F9F9F9</color>
+    <color name="tt_2A2A2A">#2A2A2A</color>
+    <color name="tt_FFF0ED">#FFF0ED</color>
+
+    <color name="white">#ffffffff</color>
+    <color name="color_eeeeee">#ffeeeeee</color>
+    <color name="black">#ff000000</color>
+    <color name="black_half">#7f000000</color>
+    <!--smoke-->
+    <color name="color_333333">#ff333333</color>
+    <color name="color_666666">#ff666666</color>
+    <color name="wheel_timebtn_pre">#CCCCCC</color>
+    <color name="color_323232">#323232</color>
+    <color name="color_999999">#999999</color>
+    <color name="color_f7af39">#F7AF39</color>
+    <color name="color_6fbbff">#6FBBFF</color>
+    <color name="color_ff739a">#FF739A</color>
+    <color name="color_9096e2">#9096E2</color>
+    <color name="color_ff7699">#FF7699</color>
+    <color name="color_ffd0dc">#FFD0DC</color>
+    <color name="color_f9f9f9">#F9F9F9</color>
+    <color name="color_65a6ff">#65A6FF</color>
+    <color name="color_fafafa">#fafafa</color>
+
+    <color name="color_f5f5f5">#f5f5f5</color>
+    <color name="color_f8f8f8">#f8f8f8</color>
+    <color name="color_8f9297">#8F9297</color>
+
+    <color name="blue_tag">#65BCFF</color>
+    <color name="color_bbbbbb">#BBBBBB</color>
+    <color name="color_dddddd">#dddddd</color>
+
+    <color name="possible_result_points">#c0ffbd21</color> <!-- Android standard ICS color -->
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_mask">#60000000</color>
+
+    <color name="crn0">#25a0f5</color>
+
+    <color name="app_toolbar_start_color">#359FFF</color>ß
+
+    <color name="app_common_bg">#f8f8f8</color>
+
+    <color name="app_line_color">#eeeeee</color>
+
+
+    <color name="transparency_60">#60000000</color>
+    <color name="wheel_cancel">#FFAA33</color>
+    <color name="wheel_title">#333333</color>
+
+
+    <color name="tt_424345">#424345</color>
+    <color name="tt_919498">#919498</color>
+    <color name="tt_717376">#717376</color>
+    <color name="tt_C0C0C5">#C0C0C5</color>
+    <color name="tt_4A4A4A">#4A4A4A</color>
+    <color name="tt_D5D5D7">#D5D5D7</color>
+    <color name="tt_8B8D92">#8B8D92</color>
+    <color name="tt_FF5E45">#FF5E45</color>
+    <color name="tt_FF8647">#FF8647</color>
+    <color name="tt_B9BCC0">#B9BCC0</color>
+    <color name="tt_9F9F9F">#9F9F9F</color>
+    <color name="tt_8F8F8F">#8F8F8F</color>
+    <color name="tt_DDDDDD">#DDDDDD</color>
+    <color name="tt_57514F">#57514F</color>
+    <color name="tt_68A950">#68A950</color>
+    <color name="tt_FFE3E4E8">#FFE3E4E8</color>
+    <color name="tt_ECD3B1">#ECD3B1</color>
+    <color name="tt_685D4E">#685D4E</color>
+    <color name="tt_F4E6D3">#F4E6D3</color>
+    <color name="tt_FCFAF7">#FCFAF7</color>
+    <color name="tt_FFFCF8">#FFFCF8</color>
+    <color name="tt_FFE2B8">#FFE2B8</color>
+    <color name="tt_FFAA9D">#FFAA9D</color>
+    <color name="tt_F5FAFF">#F5FAFF</color>
+    <color name="tt_323027">#323027</color>
+    <color name="tt_5A584C7">#5A584C</color>
+    <color name="tt_FAF1E6">#FAF1E6</color>
+    <color name="tt_625237">#625237</color>
+    <color name="tt_D9C9B7">#D9C9B7</color>
+    <color name="tt_AFA087">#AFA087</color>
+    <color name="tt_C1A888">#C1A888</color>
+
+    <color name="tt_EFD8B8">#EFD8B8</color>
+    <color name="tt_EADCCB">#EADCCB</color>
+    <color name="tt_6F665D">#6F665D</color>
+    <color name="tt_38312B">#38312B</color>
+    <color name="tt_A39D96">#A39D96</color>
+    <color name="tt_C6C2C0">#C6C2C0</color>
+    <color name="tt_838383">#838383</color>
+    <color name="tt_f7f7f7">#f7f7f7</color>
+
+
+    <color name="color_f6f6f6">#fff6f6f6</color>
+
+
+</resources>

@@ -1,0 +1,6 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.changdao.master.common">
+    <application>
+        <activity android:name=".crash.CrashActivity" />
+    </application>
+</manifest>

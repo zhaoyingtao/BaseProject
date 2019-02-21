@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomTabButton">
+        <attr name="tab_drawable" format="reference" />
+        <attr name="tab_top_right_drawable" format="reference" />
+        <attr name="tab_text" format="string" />
+        <attr name="tab_top_right_text" format="string" />
+        <attr name="tab_color" format="color"/>
+    </declare-styleable>
+    <!--轮播图-->
+    <declare-styleable name="CarouselFigureView">
+        <attr name="isAutoPlay" format="boolean" />
+        <attr name="isInfiniteLoop" format="boolean" />
+        <attr name="isNeedIndicationPoint" format="boolean" />
+        <attr name="pointLeft_Right_Margin" format="dimension" />
+        <attr name="pointBottomMargin" format="dimension" />
+        <attr name="playIntervalTime" format="integer" />
+        <attr name="imgPlaceholderResource" format="reference" />
+        <attr name="interPointBgResource" format="reference" />
+    </declare-styleable>
+    <!--圆形进度条-->
+    <declare-styleable name="RoundProgressBar">
+        <attr name="radius" format="dimension" />
+        <attr name="circle_bg" format="color" />
+        <attr name="text_color" format="color" />
+        <attr name="arc_color" format="color" />
+        <attr name="circle_width" format="dimension" />
+    </declare-styleable>
+    <!--音乐===圆形进度条-->
+    <declare-styleable name="MusicRoundProgressBar">
+        <attr name="music_radius" format="dimension" />
+        <attr name="music_circle_bg" format="color" />
+        <attr name="music_arc_color" format="color" />
+        <attr name="music_circle_width" format="dimension" />
+    </declare-styleable>
+    <!--时间轴View-->
+    <declare-styleable name="TimeLineView">
+        <!--圆点大小-->
+        <attr name="markerSize" format="dimension" />
+        <!--圆点颜色或者图片-->
+        <attr name="marker" format="color|reference" />
+        <!--上面线段颜色或者图片-->
+        <attr name="beginLine" format="color|reference" />
+        <!--下面线段颜色或者图片-->
+        <attr name="endLine" format="color|reference" />
+        <!--线段粗细-->
+        <attr name="lineSize" format="dimension" />
+        <!--横向还是竖向-->
+        <attr name="oritation" format="boolean" />
+    </declare-styleable>
+    <!--PatternLockLayout-->
+    <declare-styleable name="PatternLockLayout">
+        <attr name="sidePadding" format="dimension" />
+    </declare-styleable>
+
+    <!--圆角图片显示-->
+    <declare-styleable name="RoundAngelImageView">
+        <attr name="borderRadius" />
+        <attr name="type" />
+    </declare-styleable>
+
+    <attr name="borderRadius" format="dimension" />
+    <attr name="type">
+        <enum name="circle" value="0" />
+        <enum name="round" value="1" />
+    </attr>
+    <!--线性水平进度条-->
+    <declare-styleable name="LineProgressView">
+        <attr name="paintWidth" format="dimension" />
+        <attr name="lineLength" format="dimension" />
+        <attr name="paintColor" format="color" />
+        <attr name="defaultColor" format="color" />
+    </declare-styleable>
+    <!--矩形柱状图-->
+    <declare-styleable name="RectangularBarView">
+        <attr name="barPaintColor" format="color" />
+    </declare-styleable>
+    <!--自定义图文显示，上图下文字-->
+    <declare-styleable name="ImageTextView">
+        <attr name="textSizeSp" format="dimension" />
+        <attr name="textColorDefault" format="color" />
+        <attr name="textColorSelected" format="color" />
+        <attr name="imageWH" format="dimension" />
+        <attr name="textMessage" format="string" />
+        <attr name="imageResouse" format="integer" />
+        <attr name="imageResouseSelect" format="integer" />
+
+    </declare-styleable>
+    <!--字母检索-->
+    <declare-styleable name="SideIndexBar">
+        <attr name="letterSize" format="dimension" />
+        <attr name="letterColor" format="color" />
+        <attr name="selectLetterColor" format="color" />
+        <attr name="selectBackground" format="reference|color" />
+        <attr name="isBoldface" format="boolean" />
+        <attr name="isLetterCenter" format="boolean" />
+    </declare-styleable>
+    <!--绘制虚线 垂直或者水平-->
+    <declare-styleable name="DashView">
+        <attr name="dashWidth" format="dimension" />
+        <attr name="lineWidth" format="dimension" />
+        <attr name="lineHeight" format="dimension" />
+        <attr name="lineColor" format="color" />
+        <attr name="dashOrientation" format="integer" />
+
+    </declare-styleable>
+</resources>
