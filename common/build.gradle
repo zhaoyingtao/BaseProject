@@ -68,8 +68,6 @@ dependencies {
     })
 
     api 'com.contrarywind:Android-PickerView:3.2.7'
-    //毛玻璃效果实现(Glide)圆角图片等等---自带glide
-    api 'jp.wasabeef:glide-transformations:3.3.0'
 
     //今日头条屏幕适配方案终极版
     api 'me.jessyan:autosize:1.1.2'

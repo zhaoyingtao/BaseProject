@@ -1,11 +1,14 @@
 package com.zyt.basics.oneframe;
 
+import android.Manifest;
+import android.support.annotation.NonNull;
 import android.view.View;
 
 import com.alibaba.android.arouter.facade.annotation.Route;
 import com.alibaba.android.arouter.launcher.ARouter;
 import com.zyt.master.common.Listener.EventBus;
 import com.zyt.master.common.Listener.OnAntiDoubleClickListener;
+import com.zyt.master.common.tool.utils.PermissionsUtils;
 import com.zyt.master.common.tool.utils.ToastUtils;
 import com.zyt.appcommon.AppBaseActivity;
 import com.zyt.appcommon.RouterList;
@@ -37,7 +40,6 @@ public class MainActivity extends AppBaseActivity<ActivityMainBinding> implement
         mainPresenter = new MainPresenter(this);
         mainPresenter.getMainData();
     }
-
     @Override
     protected void secondInitData() {
         mBinding.skipBtn.setOnClickListener(new OnAntiDoubleClickListener() {

@@ -61,28 +61,6 @@ public class DateUtils {
         }
     }
 
-
-    public String getChinaWeek(int i) {
-        switch (i) {
-            case 1:
-                return "周日";
-            case 2:
-                return "周一";
-            case 3:
-                return "周二";
-            case 4:
-                return "周三";
-            case 5:
-                return "周四";
-            case 6:
-                return "周五";
-            case 7:
-                return "周六";
-            default:
-                return "";
-        }
-    }
-
     /**
      * string类型转换为date类型
      * formatType要转换的格式yyyy-MM-dd HH:mm:ss//yyyy年MM月dd日 HH时mm分ss秒，
@@ -157,7 +135,7 @@ public class DateUtils {
     }
 
     /**
-     * 获取天干地支月=== 使用阳历的日期获取，不要使用农历日期
+     * 获取天干地支月
      *
      * @param cld
      * @return
