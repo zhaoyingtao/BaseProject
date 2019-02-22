@@ -1,8 +1,10 @@
 package com.zyt.basics;
 
 import android.content.Context;
+import android.os.CountDownTimer;
 import android.support.multidex.MultiDex;
 import android.support.multidex.MultiDexApplication;
+import android.util.Log;
 
 import com.alibaba.android.arouter.launcher.ARouter;
 import com.zyt.master.common.CommonLibConstant;
@@ -27,9 +29,8 @@ public class APPApplication extends MultiDexApplication {
         init();
 
     }
+
     private void init() {
-        //获取网络IP
-        NetworkUtil.getExternalNetworkIP(this);
         //今日头条适配配置
         AutoSizeConfig.getInstance().getUnitsManager()
                 .setSupportDP(false)
@@ -48,10 +49,11 @@ public class APPApplication extends MultiDexApplication {
                 .setIsDebug(true)
                 .setNoNetWorkRemind("无网络")
                 .setSharedPreferencesName("base_db")
-                .setCrashSavePath(AppConstant.LOCAL_PATH);
+                .setCrashSavePath(AppConstant.LOCAL_PATH)
+                .setExternalNetworkIP();
         //网络请求初始化
         RetrofitClientUtil.initClient()
-                .useCookiesInterceptor(new AddCookiesInterceptor(this))
+                .useCookiesInterceptor(new AddCookiesInterceptor(APPApplication.this))
                 .setConnectionPoolNums(8)
                 .setConnectionPoolKeepTime(15)
                 .setRequestOutTime(20)

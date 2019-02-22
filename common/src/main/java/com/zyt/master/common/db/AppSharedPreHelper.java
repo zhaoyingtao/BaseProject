@@ -15,6 +15,7 @@ import android.text.TextUtils;
 public class AppSharedPreHelper {
     private static SharedPreferences sharedPreferences;
     private static AppSharedPreHelper appDbHelper;
+    private String shareDbName;
 
     public static AppSharedPreHelper init() {
         if (appDbHelper == null) {
@@ -29,11 +30,12 @@ public class AppSharedPreHelper {
 
     private static Context mContext;
 
-    public void initDB(Context context,String shareName) {
+    public void initDB(Context context, String shareName) {
         mContext = context;
-        if (TextUtils.isEmpty(shareName)){
+        if (TextUtils.isEmpty(shareName)) {
             shareName = "app_shared_db";
         }
+        shareDbName = shareName;
         sharedPreferences = context.getSharedPreferences(shareName, Context.MODE_PRIVATE);
     }
 
@@ -67,6 +69,7 @@ public class AppSharedPreHelper {
         editor.putLong(key, value);
         editor.apply();
     }
+
     /******************取出数据库的值***********************/
     public String getString(String key) {
         if (sharedPreferences != null) {

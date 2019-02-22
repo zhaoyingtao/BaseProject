@@ -25,6 +25,9 @@ import java.nio.charset.StandardCharsets;
  */
 
 public class NetworkUtil {
+    //要想获取外网IP的key
+    public static final String ExternalNetworkIpKey = "ExternalNetworkIp";
+
     /**
      * 是否有网络
      *
@@ -164,7 +167,7 @@ public class NetworkUtil {
     public static void setIp(Context context, String ip) {
         if (context != null) {
             if (ip != null) {
-                AppSharedPreHelper.init().putString("ExternalNetworkIp", ip);
+                AppSharedPreHelper.init().putString(ExternalNetworkIpKey, ip);
             }
         }
     }

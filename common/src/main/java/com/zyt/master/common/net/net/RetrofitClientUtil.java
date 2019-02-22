@@ -149,7 +149,10 @@ public class RetrofitClientUtil {
      */
     public void changeApiBaseUrl(String apiUrl) {
         if (TextUtils.isEmpty(baseUrl)){
-            throw new NullPointerException("请求的域名地址不能为null");
+            throw new RuntimeException("请求的域名地址不能为null");
+        }
+        if (!baseUrl.startsWith("http")){
+            throw new RuntimeException("请求的域名地址错误");
         }
         sRetrofit = new Retrofit.Builder()
                 .client(sOkHttpClient.build())

@@ -13,7 +13,8 @@ public interface AppConstant {
     String LOCAL_PATH = Environment.getExternalStorageDirectory().getAbsolutePath()
             + "/Android/data/com.zyt.basics/";
 
-    String base_url = "https://sapi-test.changguwen.com/v2/";
+    //请求域名
+    String base_url = "https://www.baidu.com/";
     //是否是debug调试模式
     boolean is_debug = true;
 }
