@@ -1,9 +1,21 @@
 apply plugin: 'com.android.library'
 apply from: "../model_common.gradle"
+apply plugin: 'com.novoda.bintray-release'
 
 android {
-
+    lintOptions {
+        abortOnError false
+    }
 }
+
+publish {
+    userOrg = 'zhaoyingtao'
+    groupId = 'com.bintray.library'
+    artifactId = 'common_library'
+    publishVersion = '1.0.0'
+    desc = 'Oh hi, this is a nice description for a project, right?'
+}
+
 dependencies {
     //解决依赖库冲突问题
     configurations.all {

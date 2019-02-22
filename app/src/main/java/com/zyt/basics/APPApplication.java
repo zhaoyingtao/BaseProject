@@ -5,12 +5,10 @@ import android.support.multidex.MultiDex;
 import android.support.multidex.MultiDexApplication;
 
 import com.alibaba.android.arouter.launcher.ARouter;
-import com.changdao.master.common.CommonLibConstant;
-import com.changdao.master.common.crash.CrashHandler;
-import com.changdao.master.common.db.AppSharedPreHelper;
-import com.changdao.master.common.net.net.AddCookiesInterceptor;
-import com.changdao.master.common.net.net.RetrofitClientUtil;
-import com.changdao.master.common.service.NetworkUtil;
+import com.zyt.master.common.CommonLibConstant;
+import com.zyt.master.common.net.net.AddCookiesInterceptor;
+import com.zyt.master.common.net.net.RetrofitClientUtil;
+import com.zyt.master.common.service.NetworkUtil;
 
 import me.jessyan.autosize.AutoSizeConfig;
 import me.jessyan.autosize.unit.Subunits;
@@ -49,13 +47,16 @@ public class APPApplication extends MultiDexApplication {
                 .setAppContext(this)
                 .setIsDebug(true)
                 .setNoNetWorkRemind("无网络")
-                .setRequestBaseUrl(AppConstant.base_url)
                 .setSharedPreferencesName("base_db")
                 .setCrashSavePath(AppConstant.LOCAL_PATH);
-
-        RetrofitClientUtil.initClient().getsOkHttpClient().
-                addInterceptor(new AddCookiesInterceptor(this));
-        RetrofitClientUtil.initClient().changeApiBaseUrl(AppConstant.base_url);
+        //网络请求初始化
+        RetrofitClientUtil.initClient()
+                .useCookiesInterceptor(new AddCookiesInterceptor(this))
+                .setConnectionPoolNums(8)
+                .setConnectionPoolKeepTime(15)
+                .setRequestOutTime(20)
+                .setRequestBaseUrl(AppConstant.base_url)//必须设置
+                .build();//必须设置
 
     }
 
