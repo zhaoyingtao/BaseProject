@@ -6,7 +6,8 @@ import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 
-import com.changdao.master.common.R;
+import com.zyt.master.common.R;
+
 
 /**
  * author : zyt

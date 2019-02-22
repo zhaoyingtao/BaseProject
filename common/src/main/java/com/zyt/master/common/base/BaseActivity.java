@@ -12,6 +12,7 @@ import android.view.MenuItem;
 import android.view.inputmethod.InputMethodManager;
 
 import com.alibaba.android.arouter.launcher.ARouter;
+import com.zyt.master.common.R;
 import com.zyt.master.common.tool.bar.StatusNavBar;
 
 
@@ -42,8 +43,8 @@ public abstract class BaseActivity<T extends ViewDataBinding> extends AppCompatA
         secondInitData();
         //设置状态栏透明度===需要放在方法之后，否则子类设置无效
         if (isStatusBar) {
-            StatusNavBar.with(this).statusBarColor(com.changdao.master.common.R.color.transparent)
-                    .statusBarDarkFont(true).navigationBarColor(com.changdao.master.common.R.color.black_degree_50).init();
+            StatusNavBar.with(this).statusBarColor(R.color.transparent)
+                    .statusBarDarkFont(true).navigationBarColor(R.color.black_degree_50).init();
         }
     }
 

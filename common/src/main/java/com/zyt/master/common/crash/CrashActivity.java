@@ -27,7 +27,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 
-import com.changdao.master.common.R;
+import com.zyt.master.common.R;
 
 import java.io.File;
 import java.io.FileNotFoundException;

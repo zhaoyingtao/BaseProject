@@ -1,25 +1,15 @@
 package com.zyt.master.common.tool.utils;
 
 import android.content.Context;
-import android.content.res.AssetManager;
 import android.graphics.Color;
 import android.view.View;
 
-import com.bigkoo.pickerview.OptionsPickerView;
 import com.bigkoo.pickerview.TimePickerView;
-import com.changdao.master.common.R;
+import com.zyt.master.common.R;
 import com.zyt.master.common.tool.interfaze.CommonInterfaceHelper;
 
-import org.json.JSONArray;
-import org.json.JSONObject;
-
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
-import java.util.List;
 
 /**
  * Created by dhf on 2017/3/17.
