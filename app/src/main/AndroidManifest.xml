@@ -37,7 +37,7 @@
             android:name="design_height_in_dp"
             android:value="667" />
 
-        <activity android:name=".oneframe.MainActivity">
+        <activity android:name=".LaunchAct">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -45,6 +45,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".twoframe.TwoActivity" />
+        <activity android:name=".oneframe.MainActivity"/>
     </application>
 
 </manifest>
