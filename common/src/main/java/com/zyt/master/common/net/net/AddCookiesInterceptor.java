@@ -4,6 +4,7 @@ import android.content.Context;
 import android.os.Build;
 import android.util.Log;
 
+import com.zyt.master.common.CommonLibConstant;
 import com.zyt.master.common.service.NetworkUtil;
 import com.zyt.master.common.tool.utils.AppUtils;
 import com.zyt.master.common.tool.utils.SystemUtil;
@@ -140,6 +141,7 @@ public class AddCookiesInterceptor implements Interceptor {
      * @param logData
      */
     private void log(String remind, String logData) {
-        Log.e("_api", remind + logData);
+        if (CommonLibConstant.IS_DEBUG)
+            Log.e("_api", remind + logData);
     }
 }

@@ -46,7 +46,7 @@ public class APPApplication extends MultiDexApplication {
         //common依赖库的相关初始化
         CommonLibConstant.init()
                 .setAppContext(this)
-                .setIsDebug(true)
+                .setIsDebug(AppConstant.is_debug)
                 .setNoNetWorkRemind("无网络")
                 .setSharedPreferencesName("base_db")
                 .setCrashSavePath(AppConstant.LOCAL_PATH)
