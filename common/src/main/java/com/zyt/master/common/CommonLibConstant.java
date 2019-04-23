@@ -2,6 +2,7 @@ package com.zyt.master.common;
 
 import android.content.Context;
 import android.os.Environment;
+import android.text.TextUtils;
 
 import com.zyt.master.common.crash.CrashHandler;
 import com.zyt.master.common.db.AppSharedPreHelper;
@@ -65,7 +66,10 @@ public class CommonLibConstant {
      * @return
      */
     public CommonLibConstant setSharedPreferencesName(String dbName) {
-        AppSharedPreHelper.init().initDB(applicationContext, "base_db");
+        if (TextUtils.isEmpty(dbName)){
+            dbName = "base_db";
+        }
+        AppSharedPreHelper.init().initDB(applicationContext, dbName);
         return this;
     }
 
